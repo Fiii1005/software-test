@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from contextlib import asynccontextmanager
 from utils.database import init_db, close_db
 
+# software-test
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # 应用启动时初始化数据库
